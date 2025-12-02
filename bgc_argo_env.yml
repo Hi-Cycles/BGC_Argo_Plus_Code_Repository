@@ -1,0 +1,19 @@
+name: bgc_argo_env
+channels:
+ - conda-forge
+ - defaults
+dependencies:
+ - numpy # general numerical computing
+ - pandas # general data handling
+ - xarray # useful for working with model data or other multi-dimensional datasets, especially netcdf files
+ - netCDF4 # required for xarray and general use of netcdf files
+ - matplotlib # plotting package
+ - jupyter # needed for running notebooks
+ - python
+ - scipy # statistical functions
+ - gsw # for calculating different seawater properties
+ - cartopy # a mapping package
+ - tqdm # for helpful progress bars
+ - pip # install packages that are not available through conda
+ - pip:
+   - PyCO2SYS # for calculating carbonate system parameters
