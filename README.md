@@ -10,12 +10,13 @@ These are basic examples of how to use float data from this database and will ho
 ## Current list of scripts and their functionality:
 **Complete:**
 
-N/A
+Name | Purpose
+--- | ---
+Float_file_exploration.ipynb | Loads a single float file, makes some basic plots to explore the data
 
 **Wish list:**
 
 Name | Purpose
 --- | ---
-Single_Float_Exploration.ipynb | Explains the different variables present in a float file and make some basic plots to explore the data
 Geo_Search.ipynb | Get floats in a specific region, explore the data, make mean seasonal cycles and profiles
 Outlier_Detection.ipynb | Allows you to go through the same outlier detection steps that we do
